@@ -1,5 +1,5 @@
 module DotProduct #(
-    parameter SIZE = 9999 // Determine the size of the vectors.
+    parameter SIZE = 10000 // Determine the size of the vectors.
 ) (
     input logic clk_i,
     input logic reset_n_i,

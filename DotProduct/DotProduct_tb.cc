@@ -7,7 +7,7 @@
 #include <iostream>
 #include <memory>
 
-#define SIZE 9999  // Define the size parameter
+#define SIZE 10000  // Define the size parameter
 
 int sc_main(int argc, char** argv) {
     Verilated::commandArgs(argc, argv);

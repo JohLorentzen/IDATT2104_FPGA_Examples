@@ -20,7 +20,7 @@ set_property(
 
 verilate(DotProduct_tb SYSTEMC COVERAGE TRACE
     INCLUDE_DIRECTORIES "."
-    SOURCES DotProduct.v  # Replace with the actual Verilog file
+    SOURCES DotProduct.v  
 )
 
 verilator_link_systemc(DotProduct_tb)
